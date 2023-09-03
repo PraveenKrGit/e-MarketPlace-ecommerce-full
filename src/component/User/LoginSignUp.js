@@ -8,7 +8,6 @@ import FaceIcon from "@material-ui/icons/Face";
 import { useDispatch, useSelector } from "react-redux";
 import { clearErrors, login, register } from "../../actions/userAction";
 import { useAlert } from "react-alert";
-import Navbar from "../layout/Header/Navbar";
 
 const LoginSignUp = ({ history, location }) => {
   const dispatch = useDispatch();

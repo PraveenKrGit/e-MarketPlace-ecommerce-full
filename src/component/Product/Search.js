@@ -1,5 +1,4 @@
-import React, { useState, Fragment } from "react";
-import Navbar from "../layout/Header/Navbar";
+import React, { useState} from "react";
 import MetaData from "../layout/MetaData";
 import "./Search.css";
 
