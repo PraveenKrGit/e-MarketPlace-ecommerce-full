@@ -1,0 +1,63 @@
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 3vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+.nav{
+  margin-top: 1rem;
+  padding: .4rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  /* position: relative; */
+}
+
+
+.left{
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.navTitle{
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+}
+
+.navTitle:hover{
+  color: black;
+}
+
+.links> *{
+  color:rgb(48, 48, 48);
+  text-decoration: none;
+  padding-left: 1rem;
+}
+
+.links> *:hover{
+  color: black;
+}
+
+.right{
+  display: flex;
+  align-items: center;
+}
+.right> *{
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.right>*:hover{
+  color: brown;
+}

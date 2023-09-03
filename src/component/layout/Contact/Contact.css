@@ -1,0 +1,76 @@
+.contactContainer{
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title{
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 1.6vmax;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 10vmax;
+  padding: 1vmax;
+  margin: 5vmax auto;
+  color: rgb(0, 0, 0, 0.7);
+  font-weight: 700;
+
+}
+
+.contents{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.mailBtn {
+  text-decoration: none;
+  color: black;
+}
+
+.span{
+  color: black;
+  font-weight: bold;
+}
+
+.mailBtn > button {
+  text-decoration: none;
+  font: 200 2vmax "Roboto";
+  cursor: url("https://img.icons8.com/color/48/000000/edit--v2.png"), pointer;
+  padding: 2vmax;
+}
+
+.aboutSectionContainer2{
+  text-align: center;
+}
+
+.aboutSectionContainer2>a{
+  padding: 1rem;
+}
+
+.contactLinks{
+  text-align: center;
+}
+
+.contactLinks> a{
+  color: rgba(0, 0, 0, 0.623);
+  font: 100 2vmax "Roboto";
+  /* margin: 2vmax; */
+  padding: 1rem;
+  align-self: center;
+  font-size: 2vmax;
+}
+
+.contactLinks>a>svg{
+  font-size: 2vmax;
+}
+
+
+
+@keyframes mailBtnAnimation {
+  to {
+    transform: translateX(0);
+  }
+}
